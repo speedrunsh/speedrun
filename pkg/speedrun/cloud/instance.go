@@ -4,9 +4,9 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/antonmedv/expr"
 	"github.com/apex/log"
 	"github.com/dpogorzelski/speedrun/pkg/common/cryptoutil"
+	"github.com/expr-lang/expr"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 )
